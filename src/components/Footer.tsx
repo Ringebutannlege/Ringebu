@@ -74,6 +74,17 @@ export default function Footer() {
           <Link href="/vilkar" className="underline-offset-4 transition-colors hover:text-white hover:underline">
             Vilkår
           </Link>
+          <span className="md:ml-auto">
+            Nettside av{" "}
+            <a
+              href="https://www.idweb.no"
+              target="_blank"
+              rel="noopener"
+              className="underline-offset-4 transition-colors hover:text-white hover:underline"
+            >
+              www.idweb.no
+            </a>
+          </span>
         </div>
       </div>
     </footer>
