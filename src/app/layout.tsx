@@ -27,18 +27,6 @@ export const metadata: Metadata = {
   },
   description:
     "Tannlege i Ringebu sentrum. Ring 61 28 04 12, eller be om time på nettsiden.",
-  keywords: [
-    "tannlege Ringebu",
-    "tannlegesenter",
-    "tannbehandling",
-    "tannhelse",
-    "Gudbrandsdalen",
-    "tannpine",
-    "tannkjøtt",
-    "karies",
-    "implantater",
-    "akutt tannlege",
-  ],
   // No `alternates.canonical` here on purpose. Next inherits it into every
   // child route that does not override it, so declaring "/" at the root made
   // whole sections of the site announce themselves as duplicates of the
@@ -90,7 +78,8 @@ export default function RootLayout({
               description:
                 "Tannlege i Ringebu sentrum.",
               url: "https://ringebutannlegesenter.no",
-              logo: "https://ringebutannlegesenter.no/images/logo-mark.svg",
+              // Google reads PNG, JPG or WebP logos, not SVG.
+              logo: "https://ringebutannlegesenter.no/images/logo-mark.png",
               image: "https://ringebutannlegesenter.no/opengraph-image.jpg",
               hasMap: "https://www.google.com/maps/search/?api=1&query=Jernbanegata+4,+2630+Ringebu",
               telephone: "+4761280412",
@@ -134,7 +123,11 @@ export default function RootLayout({
                   closes: "18:00",
                 },
               ],
-              priceRange: "$$",
+              // The clinic's directory listings that match this address and
+              // phone. Add the Google Business Profile URL here once confirmed.
+              sameAs: [
+                "https://www.1881.no/tannlege/tannlege-innlandet/tannlege-ringebu/ringebu-tannlegesenter-as_105415276S1/",
+              ],
             }),
           }}
         />

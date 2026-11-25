@@ -290,9 +290,9 @@ export const supportPages: SupportPage[] = [
     ],
     sections: [
       {
-        heading: "Egenandelstaket i 2025",
+        heading: "Egenandelstaket i 2026",
         content: [
-          "I 2025 er egenandelstaket på **kr 3 278**. Når du har betalt dette beløpet i godkjente egenandeler, får du frikort automatisk. Du trenger ikke søke om det.",
+          "I 2026 er egenandelstaket på **kr 3 278**. Når du har betalt dette beløpet i godkjente egenandeler, får du frikort automatisk. Du trenger ikke søke om det.",
           "Frikortet gjelder for resten av kalenderåret. Fra 1. januar neste år starter tellingen på nytt.",
           "Du får vanligvis frikortet i posten (eller digitalt via Helsenorge) innen **tre uker** etter at du har nådd grensen.",
         ],

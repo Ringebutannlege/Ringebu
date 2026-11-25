@@ -42,7 +42,7 @@ export function Panorama() {
         <h1 className={`${s.lock} ${s.in}`} style={after("0.8s")}>
           <Merke className={s.mark} />
           <span className={s.name}>
-            <span>Ringebu</span>
+            <span>Ringebu</span>{" "}
             <span>Tannlegesenter</span>
           </span>
         </h1>
