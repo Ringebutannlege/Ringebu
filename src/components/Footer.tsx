@@ -75,14 +75,14 @@ export default function Footer() {
             Vilkår
           </Link>
           <span className="md:ml-auto">
-            Nettside av{" "}
+            Nettsida laget av{" "}
             <a
               href="https://www.idweb.no"
               target="_blank"
               rel="noopener"
               className="underline-offset-4 transition-colors hover:text-white hover:underline"
             >
-              www.idweb.no
+              ID-web
             </a>
           </span>
         </div>
