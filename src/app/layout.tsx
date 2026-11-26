@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     template: "%s | Ringebu Tannlegesenter",
   },
   description:
-    "Tannlege i Ringebu sentrum. Ring 61 28 04 12, eller be om time på nettsiden.",
+    "Tannlege i Ringebu sentrum. Undersøkelse, fyllinger, rotfylling, kroner, implantater og proteser. Ring 61 28 04 12, eller be om time på nettsiden.",
   // No `alternates.canonical` here on purpose. Next inherits it into every
   // child route that does not override it, so declaring "/" at the root made
   // whole sections of the site announce themselves as duplicates of the
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ringebu Tannlegesenter | Din Tannlege i Ringebu",
     description:
-      "Tannlege i Ringebu sentrum.",
+      "Tannlege i Ringebu sentrum. Undersøkelse, fyllinger, rotfylling, kroner, implantater og proteser.",
     type: "website",
     locale: "nb_NO",
     siteName: "Ringebu Tannlegesenter",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Ringebu Tannlegesenter | Din Tannlege i Ringebu",
     description:
-      "Tannlege i Ringebu sentrum.",
+      "Tannlege i Ringebu sentrum. Undersøkelse, fyllinger, rotfylling, kroner, implantater og proteser.",
   },
   robots: {
     index: true,
